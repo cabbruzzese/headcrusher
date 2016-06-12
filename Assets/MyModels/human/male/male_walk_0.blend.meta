@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 13b3f6ed975f02b42baedc6e05e9ae54
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Back
+    100002: Fingers1_Left
+    100004: Fingers1_Right
+    100006: Fingers2_Left
+    100008: Fingers2_Right
+    100010: Foot_Left
+    100012: Foot_Right
+    100014: Forearm_Left
+    100016: Forearm_Right
+    100018: Hand_Left
+    100020: Hand_Right
+    100022: Head
+    100024: Hip
+    100026: HumanMale
+    100028: //RootNode
+    100030: MaleArm
+    100032: RenderPlatform
+    100034: Shin_Left
+    100036: Shin_Right
+    100038: Thigh_Left
+    100040: Thigh_Right
+    100042: Thumb1_Left
+    100044: Thumb1_Right
+    100046: Thumb2_Left
+    100048: Thumb2_Right
+    100050: Toes_Left
+    100052: Toes_Right
+    100054: Upperarm_Left
+    100056: Upperarm_Right
+    400000: Back
+    400002: Fingers1_Left
+    400004: Fingers1_Right
+    400006: Fingers2_Left
+    400008: Fingers2_Right
+    400010: Foot_Left
+    400012: Foot_Right
+    400014: Forearm_Left
+    400016: Forearm_Right
+    400018: Hand_Left
+    400020: Hand_Right
+    400022: Head
+    400024: Hip
+    400026: HumanMale
+    400028: //RootNode
+    400030: MaleArm
+    400032: RenderPlatform
+    400034: Shin_Left
+    400036: Shin_Right
+    400038: Thigh_Left
+    400040: Thigh_Right
+    400042: Thumb1_Left
+    400044: Thumb1_Right
+    400046: Thumb2_Left
+    400048: Thumb2_Right
+    400050: Toes_Left
+    400052: Toes_Right
+    400054: Upperarm_Left
+    400056: Upperarm_Right
+    2300000: RenderPlatform
+    3300000: RenderPlatform
+    4300002: HumanMale
+    7400000: Default Take
+    7400002: Action
+    7400004: Action_001
+    7400006: Action_002
+    7400008: Action_003
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: HumanMale
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 1
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanMale
+        weight: 1
+      - path: RenderPlatform
+        weight: 1
+      - path: RenderPlatform/MaleArm
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Head
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left/Foot_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left/Foot_Left/Toes_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right/Foot_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right/Foot_Right/Toes_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Fingers1_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Fingers1_Left/Fingers2_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Thumb1_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Thumb1_Left/Thumb2_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Fingers1_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Fingers1_Right/Fingers2_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Thumb1_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Thumb1_Right/Thumb2_Right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action
+      takeName: Action
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanMale
+        weight: 1
+      - path: RenderPlatform
+        weight: 1
+      - path: RenderPlatform/MaleArm
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Head
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left/Foot_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left/Foot_Left/Toes_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right/Foot_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right/Foot_Right/Toes_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Fingers1_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Fingers1_Left/Fingers2_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Thumb1_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Thumb1_Left/Thumb2_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Fingers1_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Fingers1_Right/Fingers2_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Thumb1_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Thumb1_Right/Thumb2_Right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_001
+      takeName: Action_001
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanMale
+        weight: 1
+      - path: RenderPlatform
+        weight: 1
+      - path: RenderPlatform/MaleArm
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Head
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left/Foot_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left/Foot_Left/Toes_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right/Foot_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right/Foot_Right/Toes_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Fingers1_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Fingers1_Left/Fingers2_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Thumb1_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Thumb1_Left/Thumb2_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Fingers1_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Fingers1_Right/Fingers2_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Thumb1_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Thumb1_Right/Thumb2_Right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_002
+      takeName: Action_002
+      firstFrame: -1
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanMale
+        weight: 1
+      - path: RenderPlatform
+        weight: 1
+      - path: RenderPlatform/MaleArm
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Head
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left/Foot_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left/Foot_Left/Toes_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right/Foot_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right/Foot_Right/Toes_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Fingers1_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Fingers1_Left/Fingers2_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Thumb1_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Thumb1_Left/Thumb2_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Fingers1_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Fingers1_Right/Fingers2_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Thumb1_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Thumb1_Right/Thumb2_Right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_003
+      takeName: Action_003
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanMale
+        weight: 1
+      - path: RenderPlatform
+        weight: 1
+      - path: RenderPlatform/MaleArm
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Head
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left/Foot_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Left/Shin_Left/Foot_Left/Toes_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right/Foot_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Hip/Thigh_Right/Shin_Right/Foot_Right/Toes_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Fingers1_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Fingers1_Left/Fingers2_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Thumb1_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Left/Forearm_Left/Hand_Left/Thumb1_Left/Thumb2_Left
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Fingers1_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Fingers1_Right/Fingers2_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Thumb1_Right
+        weight: 1
+      - path: RenderPlatform/MaleArm/Back/Upperarm_Right/Forearm_Right/Hand_Right/Thumb1_Right/Thumb2_Right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
